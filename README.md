@@ -3,7 +3,7 @@ Packet server is an api that allows you to communicate fully encrypted (RSA / AE
 Your packages will be converted into Json by the client to the server which will then be able to read them.<br>
 Usage
 
-'''java
+```java
 Server serverTest = new Server(6000);
 serverTest.start(new ServerHandler() {
     @Override
@@ -35,4 +35,4 @@ serverTest.start(new ServerHandler() {
         }
     }
 });
-'''java
+```java
