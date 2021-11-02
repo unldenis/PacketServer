@@ -7,7 +7,12 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 // Server class
-public record Server(int port) {
+public final class Server {
+    private final int port;
+
+    public Server(int port) {
+        this.port = port;
+    }
 
     public static final RSA RSA = new RSA();
 
