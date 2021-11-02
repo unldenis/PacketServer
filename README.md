@@ -6,9 +6,8 @@ Your packages will be converted into Json by the client to the server which will
 <br>
 ## How to install
 ### Maven
-Add this dependency to your dependencies in the pom:
-<br>
 Step 1. Add the JitPack repository to your build file 
+<br>
 ```xml
 <repositories>
   <repository>
@@ -18,6 +17,7 @@ Step 1. Add the JitPack repository to your build file
 </repositories>
 ```
 Step 2. Add the dependency
+<br>
 ```xml
 <dependency>
   <groupId>com.github.unldenis</groupId>
