@@ -32,7 +32,8 @@ public class ServerTest {
             @Override
             public <T extends Packet> void handlePacket(ClientHandler client, Optional<T> packet) {
                 if(packet.isPresent()) {
-                    if(packet.get() instanceof MovePacket movePacket) {
+                    if(packet.get() instanceof MovePacket) {
+                        MovePacket movePacket = (MovePacket) packet.get();
                         System.out.println(client.getAddress() + " request a move packet to " + movePacket);
                     }
                 }else {
