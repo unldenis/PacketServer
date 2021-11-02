@@ -16,7 +16,6 @@ Add this dependency to your dependencies in the pom:
   <version>v1.0</version>
 </dependency>
 ```
-<br>
 ### Gradle
 Add this dependency to your build.gradle:
 <br>
