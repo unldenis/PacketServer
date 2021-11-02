@@ -4,8 +4,7 @@ Your packages will be converted into Json by the client to the server which will
 <br><br><b>Usage <a href="https://github.com/unldenis/PacketServer/tree/master/src/test/java">here</a>
   
 ## How to install<br>
-### Maven
-<div id="test">
+### Maven<br>
 ```xml
 <dependency>
   <groupId>com.github.unldenis</groupId>
@@ -13,4 +12,3 @@ Your packages will be converted into Json by the client to the server which will
   <version>v1.0</version>
 </dependency>
 ```
-</div>
