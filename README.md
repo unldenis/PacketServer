@@ -9,6 +9,12 @@ Your packages will be converted into Json by the client to the server which will
 Add this dependency to your dependencies in the pom:
 <br>
 ```xml
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+</repositories>
 <dependency>
   <groupId>com.github.unldenis</groupId>
   <artifactId>PacketServer</artifactId>
@@ -19,6 +25,12 @@ Add this dependency to your dependencies in the pom:
 Add this dependency to your build.gradle:
 <br>
 ```xml
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
 implementation 'com.github.unldenis:PacketServer:v1.0'
 ```
 ## Examples
