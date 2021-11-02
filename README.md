@@ -5,4 +5,10 @@ Your packages will be converted into Json by the client to the server which will
   
 <h2>How to install</h2>
 <h3>Maven</h3>
-  
+```xml
+<dependency>
+  <groupId>com.github.unldenis</groupId>
+  <artifactId>PacketServer</artifactId>
+  <version>v1.0</version>
+</dependency>
+```xml
