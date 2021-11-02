@@ -15,6 +15,7 @@ Add this dependency to your dependencies in the pom:
     <url>https://jitpack.io</url>
   </repository>
 </repositories>
+
 <dependency>
   <groupId>com.github.unldenis</groupId>
   <artifactId>PacketServer</artifactId>
@@ -31,6 +32,7 @@ allprojects {
     maven { url 'https://jitpack.io' }
   }
 }
+
 implementation 'com.github.unldenis:PacketServer:v1.0'
 ```
 ## Examples
