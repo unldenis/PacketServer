@@ -3,8 +3,8 @@ Packet server is an api that allows you to communicate fully encrypted (RSA / AE
 Your packages will be converted into Json by the client to the server which will then be able to read them.
 <br><br><b>Usage <a href="https://github.com/unldenis/PacketServer/tree/master/src/test/java">here</a>
   
-<h2>How to install</h2>
-<h3>Maven</h3>
+##How to install
+###Maven
 <div id="test">
 ```xml
 <dependency>
