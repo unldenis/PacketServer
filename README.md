@@ -22,3 +22,5 @@ Add this dependency to your build.gradle:
 ```xml
 implementation 'com.github.unldenis:PacketServer:v1.0'
 ```
+## Examples
+If you need some examples to get started, check the <a href="https://github.com/unldenis/PacketServer/tree/master/src/test/java">examples' directory</a> in this project. 
