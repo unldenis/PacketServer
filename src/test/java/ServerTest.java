@@ -1,5 +1,3 @@
-package com.github.unldenis;
-
 import com.github.unldenis.packet.Packet;
 import com.github.unldenis.server.ClientHandler;
 import com.github.unldenis.server.Server;
