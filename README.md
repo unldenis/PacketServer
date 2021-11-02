@@ -10,10 +10,10 @@ Add this dependency to your dependencies in the pom:
 <br>
 ```xml
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
 </repositories>
 <dependency>
   <groupId>com.github.unldenis</groupId>
