@@ -6,7 +6,7 @@ Your packages will be converted into Json by the client to the server which will
 <br>
 ## How to install
 ### Maven
-Step 1. Add the JitPack repository to your build file 
+Add the JitPack repository to your build file:
 <br>
 ```xml
 <repositories>
@@ -16,7 +16,7 @@ Step 1. Add the JitPack repository to your build file
   </repository>
 </repositories>
 ```
-Step 2. Add the dependency
+Add the dependency:
 <br>
 ```xml
 <dependency>
@@ -26,7 +26,7 @@ Step 2. Add the dependency
 </dependency>
 ```
 ### Gradle
-Add this dependency to your build.gradle:
+Add the JitPack repository to your build file: 
 <br>
 ```xml
 allprojects {
@@ -36,6 +36,8 @@ allprojects {
   }
 }
 ```
+Add the dependency:
+<br>
 ```xml
 implementation 'com.github.unldenis:PacketServer:v1.0'
 ```
