@@ -1,4 +1,4 @@
-package com.github.unldenis;
+package com.github.unldenis.server;
 
 import com.github.unldenis.encryprion.AES;
 import com.github.unldenis.packet.Packet;

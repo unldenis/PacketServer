@@ -10,8 +10,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>client</module>
-        <module>server</module>
         <module>test</module>
     </modules>
 

@@ -1,6 +1,9 @@
 package com.github.unldenis;
 
 import com.github.unldenis.packet.Packet;
+import com.github.unldenis.server.ClientHandler;
+import com.github.unldenis.server.Server;
+import com.github.unldenis.server.ServerHandler;
 
 import java.io.IOException;
 import java.util.Optional;

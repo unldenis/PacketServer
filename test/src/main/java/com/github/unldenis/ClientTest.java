@@ -1,5 +1,7 @@
 package com.github.unldenis;
 
+import com.github.unldenis.client.Client;
+
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
