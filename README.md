@@ -16,7 +16,6 @@ Add this dependency to your dependencies in the pom:
   </repository>
 </repositories>
 ```
-<br>
 ```xml
 <dependency>
   <groupId>com.github.unldenis</groupId>
@@ -35,7 +34,6 @@ allprojects {
   }
 }
 ```
-<br>
 ```xml
 implementation 'com.github.unldenis:PacketServer:v1.0'
 ```
