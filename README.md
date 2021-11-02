@@ -7,7 +7,6 @@ Your packages will be converted into Json by the client to the server which will
 <br>  
 ## How to install
 ### Maven
-<br>
 Add this dependency to your dependencies in the pom:
 <br>
 ```xml
